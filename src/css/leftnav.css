@@ -1,0 +1,148 @@
+.leftNav {
+  position: absolute;
+  top: 120px;
+  left: 5%;
+  width: 87.5px;
+  font-size: 12px;
+  z-index: 9;
+}
+.leftNav .kong {
+  height: 25px;
+}
+.leftNav .runpoint {
+  width: 4px;
+  height: 7px;
+  position: absolute;
+  z-index: 8;
+  right: -3px;
+  display: none;
+  -webkit-transition: .3s all;
+}
+.leftNav li {
+  list-style: none;
+  height: 25px;
+  line-height: 25px;
+  z-index: 6;
+  width: 90px;
+}
+.leftNav li a {
+  color: white;
+}
+.leftNav li:hover {
+  cursor: pointer;
+}
+.leftNav li:hover a {
+  color: #ffe6a4 !important;
+}
+.leftNav li:hover .leftNavHoverBox {
+  display: block;
+}
+.leftNav li .leftNavHoverBox {
+  display: none;
+  position: absolute;
+  top: 0px;
+  width: 800px;
+  left: 87.5px;
+  height: 275px;
+  font-size: 12px;
+  border-left: 1px solid #6e6143;
+}
+.leftNav li .leftNavHoverBox p {
+  margin-left: 25px;
+}
+.leftNav li .leftNavHoverBox p:nth-child(1) {
+  line-height: 35px;
+  color: #dac17f;
+}
+.leftNav li .leftNavHoverBox p:nth-child(2) {
+  line-height: 17px;
+  color: #999999;
+}
+.leftNav li .leftNavHoverBox .btn {
+  width: 12px;
+  height: 23px;
+  position: absolute;
+  top: 45%;
+}
+.leftNav li .leftNavHoverBox .leftbtn {
+  background-image: url(../img/index/leftbtn.png);
+  left: 7px;
+}
+.leftNav li .leftNavHoverBox .rightbtn {
+  background-image: url(../img/index/rightbtn.png);
+  right: 7px;
+}
+.leftNav li .leftNavHoverBox .class1,
+.leftNav li .leftNavHoverBox .class2 {
+  height: 100%;
+  float: left;
+  width: 47px;
+  margin-right: 115px;
+}
+.leftNav li .leftNavHoverBox .class1 h1,
+.leftNav li .leftNavHoverBox .class2 h1 {
+  font-weight: 100;
+  line-height: 35px;
+  color: #dac17f;
+  font-size: 12px;
+}
+.leftNav li .leftNavHoverBox .class1 li,
+.leftNav li .leftNavHoverBox .class2 li {
+  color: #999999;
+}
+.leftNav li .leftNavHoverBox .imgshow {
+  width: 140px;
+  height: 140px;
+  float: left;
+}
+.leftNav li .leftNavHoverBox .imgshow img {
+  width: 100%;
+  height: 100%;
+}
+.leftNav li .leftNavHoverBox .showimgbox {
+  width: 750px;
+  margin: 20px 0 0 25px;
+  overflow: hidden;
+}
+.leftNav li .leftNavHoverBox .showimgbox ul {
+  width: 2100px;
+  height: 170%;
+  transition: .2s all linear;
+}
+.leftNav li .leftNavHoverBox .showimgbox ul li {
+  list-style: none;
+  width: 140px;
+  height: 100%;
+  margin: 0 5px;
+  float: left;
+  color: #999999;
+}
+.leftNav li .leftNavHoverBox .showimgbox ul li:hover span {
+  color: #ffe6a4 !important;
+}
+.leftNav li .leftNavHoverBox .showimgbox ul li img {
+  width: 140px;
+  height: 140px;
+}
+.leftNav li .classleibie {
+  padding: 0 0 0 25px;
+  width: 520px;
+}
+.leftNav li .classleibie .bottomborder {
+  position: absolute;
+  bottom: -5px;
+  width: 100%;
+  height: 1px;
+  background-color: #504e47;
+}
+.leftNav .hoverbg {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.7;
+  display: none;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}

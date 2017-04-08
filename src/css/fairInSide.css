@@ -1,0 +1,9 @@
+/* 顶部背景图 */
+#h_top {
+	background: url('../img/hotPoint/f_top.jpg') no-repeat center;
+}
+/* 标题选中样式 */
+.h_h1_title ul > li:nth-child(6) a{
+	color: #927431;
+	border-bottom: 1px solid #927431;
+}

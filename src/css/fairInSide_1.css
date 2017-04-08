@@ -1,0 +1,112 @@
+#F_news, #F_news_con {
+	font-size: 13px;
+	width: 1000px;
+	margin: 20px auto;
+	color: #866f2a;
+	overflow: hidden;
+}
+/* 当前位置 */
+.F_news_ms {
+	float: left;
+}
+.F_news_loc {
+	color: #666666;
+	float: right
+}
+.F_news_loc a {
+	color: #666666;
+}
+#F_news_con {
+	padding-top: 20px;
+}
+#F_news_con img:nth-child(2) {
+	margin-top: -15px;
+}
+/* 广东上市公式协会 */
+.F_news_img {
+	height: 500px;
+}
+/* 存放图片 */
+.F_news_img_left {
+	float: left;
+	width: 578px;
+}
+/* 具体案例文字栏 */
+.F_news_img_right {
+	width: 380px;
+	height: 417px;
+	float: right;
+	position: relative;
+}
+/* 底部分享 */
+.F_news_share {
+	width: 390px;
+	height: 35px;
+	position: absolute;
+	bottom: 0;
+	line-height: 38px;
+}
+.F_news_share img {
+	position: absolute;
+	top: 10px;
+	left: 36px;
+}
+.F_news_share img:nth-child(2) {
+	top: 26px;
+	left: 65px;
+}
+.F_news_share  span {
+	position: absolute;
+	right: 20px;
+}
+.F_news_share a {
+	color: #866f2a;
+}
+/* ********************小图轮播图********************* */
+.f_caro_box {
+	width: 828px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+}
+.f_caro_show {
+	width: 100%;
+	overflow: hidden;
+}
+/* 展示窗口 */
+.f_caro_con {
+	width: 22222px;
+	overflow: hidden;
+	transition: all 1s;
+	color: #666;
+}
+/* 左右按钮 */
+#f_caro_leftBtn, #f_caro_rightBtn {
+	width: 28px;
+	position: absolute;
+	left: 0;
+	top: 57%;
+	display: block;
+}
+#f_caro_leftBtn {
+	left: -66px;
+}
+#f_caro_rightBtn {
+	left: 850px;
+	top: 38%;
+}
+.f_caro_img {
+	width: 256px;
+	height: 100px;
+	padding: 6px;
+	float: left;
+	margin-left: 5px;
+}
+.f_caro_img p {
+	width: 100px;
+	height: 90px;
+	float: right;
+	line-height: 28px;
+}
+
+

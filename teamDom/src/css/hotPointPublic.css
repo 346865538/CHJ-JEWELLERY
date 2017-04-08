@@ -1,0 +1,41 @@
+/* *************************爱无止境大图*********************** */
+#h_top {
+	width: 100%;
+	background: url('../img/hotPoint/r_top.jpg') no-repeat center;
+}
+#h_top > a > img {
+	width: 100%;
+	height: 550px;
+	vertical-align: top;
+}
+/* 热点的下划线 */
+.rightNav > li:nth-child(1) {
+	border-bottom: 3px solid #c39c48;
+}
+/* ***********************标题************************ */
+#h_h1_titleBox {
+	width: 100%;
+	height: 90px;
+	border-bottom: 1px solid #d9d9d9;
+	line-height: 90px;
+	font-size: 13px;
+}
+.h_h1_title {
+	width: 1000px;
+	margin: 0px auto;
+	overflow: hidden;
+}
+.h_h1_title ul li {
+	list-style: none;
+	float: left;
+	margin-left: 35px;
+}
+.h_h1_title ul li > a {
+	display: block;
+	color: #464646;
+	height: 90px;
+}
+.h_h1_title ul li > a:hover {
+	color: #927431;
+	border-bottom: 1px solid #927431;
+}

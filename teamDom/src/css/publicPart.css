@@ -1,0 +1,25 @@
+/* *************************右边固定栏************************ */
+#gotoTop {
+	width: 30px;
+	height: 62px;
+	position: fixed;
+	right: 0;
+	top: 50vh;
+	background: url('../img/publicPart/fixbg.png') no-repeat;
+	text-align: center;
+	padding-top: 8px;
+	z-index: 10;
+}
+#gotoTop img {
+	width: 11px;
+	height: 16px;
+}
+.tobottom {
+	position: absolute;
+	left: 50%;
+	margin-left: -5.5px;
+	bottom: 12px; 
+}
+.waterfallsFlowBlock h2 {
+	font: 24px "微软雅黑";
+}

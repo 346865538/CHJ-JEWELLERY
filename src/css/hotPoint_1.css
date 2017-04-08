@@ -1,0 +1,42 @@
+/* *************瀑布流************* */
+.waterfallsFlow{
+    width: 1000px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+.waterfallsFlowItem:nth-child(2){
+    margin: 0 1%;
+}
+.waterfallsFlowItem{
+    width: 32.5%;
+    float: left;
+    background: #fff;
+}
+.waterfallsFlowBlock{
+    border: 1px solid #dddddd;
+    padding: 10px 10px 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+.waterfallsFlow h2{
+    margin-top: 15px;
+}
+.waterfallsFlow p{
+    margin-top: 15px;
+    font: 12px "微软雅黑";
+    color: #666;
+    margin-top: 15px;
+}
+.waterfallsImg img{
+    width: 100%;
+    height: 100%;
+}
+.waterfallsFlow a{
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.waterfallsImg {
+    width: 100%;
+}

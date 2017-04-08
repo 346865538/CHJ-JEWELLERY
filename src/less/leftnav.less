@@ -1,0 +1,178 @@
+
+.leftNav{
+    position: absolute;
+    top: 120px;
+    left: 5%;
+    width: 87.5px;
+    font-size: 12px;
+    z-index: 11;
+    
+    
+    .kong{
+        height: 25px;
+    }
+    
+    .runpoint{
+        width: 4px;
+        height: 7px;
+        position: absolute;
+        z-index: 8;
+        right: -3px;
+        display: none;
+        -webkit-transition: .3s all;
+    }
+    
+    .hoverout{
+        width: 200px;
+        height: 400px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+    li{
+        list-style: none;
+        height: 25px;
+        line-height: 25px;
+        z-index: 6;
+        width: 90px;    
+        
+        a{
+            color: white;
+        }
+        
+        &:hover{
+            cursor: pointer;
+        }
+        
+        &:hover a{
+            color: #ffe6a4 !important;
+        }
+        
+        .leftNavHoverBox{
+            display: none;
+            position:absolute;
+            top: 0px;
+            width: 800px;
+            left: 87.5px;
+            height: 275px;
+            font-size: 12px;
+            border-left: 1px solid #6e6143;
+            
+            p{
+                margin-left: 25px;
+            }
+            
+            p:nth-child(1){
+                line-height: 35px;
+                color: #dac17f;
+            }
+            p:nth-child(2){
+                line-height: 17px;
+                color: #999999;
+            }
+            
+            .btn{
+                width: 12px;
+                height: 23px;
+                position: absolute;
+                top: 45%;
+            }
+            
+            .leftbtn{
+                background-image: url(../img/index/leftbtn.png);
+                left: 7px;
+            }
+            
+            .rightbtn{
+                background-image: url(../img/index/rightbtn.png);
+                right: 7px;
+            }
+            
+            .class1,.class2{
+                height: 100%;
+                float: left;
+                width: 47px;
+                margin-right: 115px;
+                
+                h1{
+                    font-weight: 100;
+                    line-height: 35px;
+                    color: #dac17f;
+                    font-size: 12px;
+                }
+                
+                li{
+                    color: #999999;
+                }
+            }
+            
+            .imgshow{
+                width: 140px;
+                height: 140px;
+                float: left;
+                
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            
+            .showimgbox{
+                width: 750px;
+                margin: 20px 0 0 25px;
+                overflow: hidden;
+                
+                ul{
+                    width: 2100px;
+                    height: 170%;
+                    transition: .2s all linear;
+                    
+                    li{
+                        list-style: none;
+                        width: 140px;
+                        height: 100%;
+                        margin: 0 5px;
+                        float: left;
+                        color: #999999;
+                        
+                        &:hover span{
+                            color: #ffe6a4 !important;
+                        }
+                        
+                        img{
+                            width: 140px;
+                            height: 140px;
+                        }
+                    }
+                }
+            }
+        }
+        .classleibie{
+            padding: 0 0 0 25px;
+            width: 520px;
+//          position: relative;
+            
+            .bottomborder{
+                position: absolute;
+                bottom: -5px;
+                width: 100%;
+                height: 1px;
+                background-color: #504e47;
+            }
+        }
+    }
+    
+    
+    .hoverbg{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.7;
+        display: none;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+}

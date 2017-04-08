@@ -1,0 +1,49 @@
+/* 顶部背景图 */
+#h_top {
+	background: url('../img/mediaCenter/bj.jpg') no-repeat center;
+}
+/* 当前页的选中标题样式 */
+.h_h1_title ul > li:nth-child(1) a{
+	color: #927431;
+	border-bottom: 1px solid #927431;
+}
+.waterfallsFlow{
+    width: 1000px;
+    margin: 40px auto;
+}
+.waterfallsFlowItem:nth-child(2){
+    margin: 0 1%;
+}
+.waterfallsFlowItem{
+    width: 32.5%;
+    float: left;
+    background: #fff;
+}
+.waterfallsFlowBlock{
+    border: 1px solid #dddddd;
+    padding: 10px 10px 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    position: relative;
+}
+.waterfallsFlow h2{
+    margin-top: 15px;
+}
+.waterfallsFlow p{
+    margin-top: 15px;
+    font: 12px "微软雅黑";
+    color: #666;
+    margin-top: 15px;
+}
+.waterfallsImg img{
+    width: 100%;
+    height: 100%;
+}
+.waterfallsFlow a{
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.waterfallsImg {
+    width: 100%;
+}

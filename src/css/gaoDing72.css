@@ -1,0 +1,57 @@
+*{
+	padding: 0;
+	margin:0;
+}
+.wrap{
+	/*最外边的框宽高*/
+	width: 400px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	padding-left:1%;
+}
+
+.scrollWrap{
+	/*滚动条高,和边框高保持一致 但要减去20PX  有两个三角箭头*/
+	width: 10px;
+	height: 280px;
+	position: absolute;
+	right: 0;
+	background-color: #dde;
+	top: 10px ;
+}
+.scrollBlock{
+	width: 10px;
+	/*滑块高*/
+	height: 100px;
+	position: absolute;
+	border-radius: 5px;
+	top: 0;
+	/*图片路径改一下*/
+	background: url('../img/gaoDing7/drag01.png') center no-repeat #ccb162;
+}
+.topArrow{
+	/*图片路径改一下*/
+	background:url('../img/gaoDing7/topArrow.png') center no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: -10px;
+	width: 10px;
+	height: 10px
+}
+.bottomArrow{
+	/*图片路径改一下*/
+	background:url('../img/gaoDing7/bottomArrow.png') center no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	bottom: -10px;
+	width: 10px;
+	height: 10px
+}
+.textWrap {
+	width: 95%;
+	word-wrap : break-word
+}
+.textWrap{
+	position: absolute;
+}

@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+}
+
+img{
+    display: block;
+}
+
+.topnav{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+    
+    > .container{
+        width: 90%;
+        height: 100%;
+        
+        margin: 0 auto;
+        position: relative;
+        
+        > a{
+            position: absolute;
+            top: 50%;
+            transform: translate3d(0,-50%,0);
+            
+            img{
+                display: block;
+            }
+        }
+        
+        .rightNav{
+            float: right;
+            height: 100%;
+            width: 65%;
+            
+            li{
+                float: left;
+                list-style: none;
+                width: 22%;
+                height: 40px;
+                padding: 10px 0;
+                margin: 10px 0;
+                margin-left: 2%;
+                transition: .1s;
+                
+                .cnText{
+                    color: #fff0ca;
+                    font-size: 14px;
+                    line-height: 30px;
+                }
+                
+                .enText{
+                    color: #999999;
+                    font-size: 12px;
+                    line-height: 11px;
+                }
+                
+                a{
+                    width: 100%;
+                    height: 100%;
+                    display: block;    
+                }
+            }
+        }
+    }
+}
+
+.hoveron{
+    border-bottom: 3px solid #c39c48;
+    
+    p{
+        color: #c39c48 !important;
+    }
+}
+
+.topbg{
+    padding-top: 90px;
+    overflow: hidden;
+    position: relative;
+    height: 550px;
+    
+    img{
+        position: absolute;
+        left: 50%;
+        transform: translate3d(-50%,0,0);
+    }
+}
+
+.midbigbox{
+    
+    .mid_bigbg1box{
+        overflow: hidden;
+        width: 100%;
+        height: 1708px;
+        position: relative;
+        overflow: hidden;
+        
+        > div:nth-child(1){
+            width: 2000px;
+            height: 1708px;
+            float: right;
+            
+            img{
+                position: absolute;
+                width: 2000px;
+                height: 1708px;
+                left: 50%;
+                transform: translate3d(-50%,0,0);
+            }
+        }
+        
+        .logo1{
+            width: 980px;
+            height: 470px;
+            position: absolute;
+            top: 70px;
+            left: 50%;
+            transform: translate3d(-50%,0,0);
+            
+            img{
+                width: 690px;
+                height: 317px;
+                position: absolute;
+                left: 50%;
+                transform: translate3d(-50%,0,0);
+            }
+            
+            img:nth-child(2){
+                top: 340px;
+                width: 704px;
+                height: 66px;
+                transform: translate3d(-48%,0,0);
+            }
+        }
+        
+        .videobox{
+            width: 992px;
+            height: 581px;
+            position: relative;
+            top: 525px;
+            left: 50%;
+            transform: translate3d(-50%,0,0);
+            
+            img{
+                position: absolute;
+            }
+            
+            .videobg{
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+            }
+            
+            .videologobox{
+                display: none;
+                
+                .videologo{
+                    width: 91%;
+                    height: 87%;
+                    left: 5%;
+                    top: 6%;
+                }
+            }
+            
+            ul{
+                width: 202px;
+                position: absolute;
+                right: 41px;
+                top: 35px;
+                z-index: 2;
+                
+                li{
+                    list-style: none;
+                    height: 100px;
+                    margin-top: 10px;
+                    position: relative;
+                    
+                    img{
+                        left: 50%;
+                        transform: translate3d(-50%,0,0);
+                    }
+                    
+                    div{
+                        position: absolute;
+                        width: 180px;
+                        height: 100px;
+                        left: 50%;
+                        transform: translate3d(-50%,0,0);
+                        background-color: black;
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+        
+        .mid_bottombox{
+            position: absolute;
+            bottom: 0px;
+            height: 695px;
+            width: 1118px;
+            left: 50%;
+            transform: translate3d(-50%,0,0);
+            
+            img{
+                position: absolute;
+            }
+        }
+    }
+    
+    .showlunbo{
+        width: 100%;
+        height: 829px;
+        overflow: hidden;
+        
+        .lunbobox{
+            width: 300%;
+            height: 100%;
+            transform: translate3d(-33.33333%,0,0);
+            transition: 1s all;
+            
+            > div{
+                width: 33.3333333333333333333%;
+                overflow: hidden;
+                height: 100%;
+                position: relative;
+                float: left;
+                
+                > div{
+                    width: 2000px;
+                    height: 100%;
+                    position: absolute;
+                    left: 50%;
+                    transform: translate3d(-50%,0,0);
+                }
+                .essentialismbg,.surrealismbg,.naturalismbg{
+                    background-image: url(../img/trends/surrealismbg.png);
+                }
+                .trendssmalllogo{
+                    background-image: url(../img/trends/trendssmalllogo.png);
+                }
+                
+                .bg21{
+                    background-image: url(../img/trends/3_2_4.png);
+                }
+                .bg22{
+                    background-image: url(../img/trends/3_2_5.png);
+                }
+                .bg23{
+                    background-image: url(../img/trends/3_2_6.png);
+                }
+                .bg24{
+                    background-image: url(../img/trends/3_2_7.png);
+                }
+                .bg25{
+                    background-image: url(../img/trends/3_2_8.png);
+                }
+                .bg26{
+                    background-image: url(../img/trends/3_2_9.png);
+                }
+                .bg27{
+                    background-image: url(../img/trends/3_2_1.gif);
+                }
+                .bg28{
+                    width: 133px;
+                    height: 136px;
+                    left: 50%;
+                    transform: translate3d(340%,0,0);
+                    top: 600px;
+                    background-image: url(../img/trends/3_2_2.png);
+                    background-repeat: no-repeat;
+                }
+                .bg29{
+                    background-image: url(../img/trends/3_2_3.png);
+                }
+                
+                .btn{
+                    width: 187px;
+                    height: 175px;
+                    display: block;
+                    position: absolute;
+                    z-index: 2;
+                    top: 50%;
+                    margin-top: -87.5px;
+                }   
+                
+                .leftbtn33,.leftbtn31{
+                    left: 200px;
+                }
+                .rightbtn31,.rightbtn32{
+                    right: 200px;
+                }
+                
+                .bg11{
+                    background-image: url(../img/trends/3_3_1.png);
+                }
+                .bg12{
+                    background-image: url(../img/trends/3_3_2.png);
+                }
+                .bg13{
+                    background-image: url(../img/trends/3_3_3.png);
+                }
+                .bg14{
+                    background-image: url(../img/trends/3_3_4.png);
+                }
+                .bg15{
+                    background-image: url(../img/trends/3_3_5.png);
+                }
+                .bg16{
+                    background-image: url(../img/trends/3_3_6.png);
+                }
+                .bg17{
+                    background-image: url(../img/trends/3_3_7.png);
+                }
+                .bg18{
+                    background-image: url(../img/trends/3_3_8.png);
+                }
+                .bg31{
+                    background-image: url(../img/trends/3_1_1.png);
+                }
+                .bg32{
+                    background-image: url(../img/trends/3_1_2.png);
+                }
+                .bg33{
+                    background-image: url(../img/trends/3_1_3.png);
+                }
+                .bg34{
+                    background-image: url(../img/trends/3_1_4.png);
+                }
+                .bg35{
+                    background-image: url(../img/trends/3_1_5.png);
+                }
+                .bg36{
+                    background-image: url(../img/trends/3_1_6.png);
+                }
+                .bg37{
+                    background-image: url(../img/trends/3_1_7.png);
+                }
+                .bg38{
+                    background-image: url(../img/trends/3_1_8.png);
+                }
+            }
+        }
+    }
+    
+    .dapian{
+        height: 750px;
+        overflow: hidden;
+        position: relative;
+        background-color: black;
+        
+        .dapiantitle{
+            width: 2000px;
+            height: 90px;
+            position: absolute;
+            left: 50%;
+            top: 20px;
+            transform: translate3d(-50%,0,0);
+        }
+        
+        .swiper-container{
+            position: absolute;
+            width: 1000px;
+            height: 552px;
+            left: 50%;
+            margin-left: -500px;
+            top: 140px;
+            overflow: hidden;
+            
+            .swiper-wrapper{
+                width: 15000px;
+                height: 100%;
+                transition: .5s all;
+                position: absolute;
+                
+                .swiper-slide{
+                    width: 1000px;
+                    height: 100%;
+                    float: left;
+                    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        float: left;
+                        display: block;
+                    }
+                }
+            }
+            .dapianbtn{
+                width: 60px;
+                height: 63px;
+                position: absolute;
+                top: 50%;
+                margin-top: -31.5px;
+                overflow: hidden;
+            }
+            .swiper-button-prev{
+                left: 0;
+            }
+            .swiper-button-next{
+                right: 0;
+                img{
+                    margin-left: -60px;
+                }
+            }
+            .dapianbtn:hover > img{
+                animation: btnhover .2s forwards;
+            }
+        }
+    }
+    
+    .kolbox{
+        width: 100%;
+        height: 647px;
+        position: relative;
+        overflow: hidden;
+        
+        .kol{
+            width: 2000px;
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            transform: translate3d(-50%,0,0);
+            
+            img{
+                position: absolute;
+            }
+            
+            div{
+                width: 150px;
+                height: 240px;
+                background-color: #000;
+                opacity: .9;
+                position: absolute;
+                display: none;
+                padding: 15px;
+                font-size: 14px;
+                color: #fff;
+                line-height: 22px;
+            }
+        }
+    }
+}
+
+@keyframes btnhover{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-63px);
+    }
+}

@@ -1,0 +1,13 @@
+/* 顶部背景图 */
+#h_top {
+	background: url('../img/hotPoint/s_top.jpg') no-repeat center;
+}
+/* 当前页的选中标题样式 */
+.h_h1_title ul > li:nth-child(5) a{
+	color: #927431;
+	border-bottom: 1px solid #927431;
+}
+.textWrap {
+	color: #666;
+	line-height: 28px;
+}
